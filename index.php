@@ -112,6 +112,9 @@ require_once ('include/head.php');
       </div>
       <button type="submit" name="inscription" class="btn btn-primary">S'inscrire</button>
     </form>
+	<div id="footer">
+		<?php include 'include/footer.php';?>
+	</div>
   </div>
 
 
@@ -125,7 +128,4 @@ function erreurs_formulaire($connexion_inscription, $input)
     echo "<style>form.formulaire_inscription input[name=".$input."] { border: 1px solid red; } form.formulaire_inscription label[for=".$input."] { color: red;}</style>";
   }
 }
-
-
-
 ?>
