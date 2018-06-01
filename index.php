@@ -7,8 +7,11 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+	<div id="bandeau">
+		<?php include 'header.php';?>	
+	</div>
 	<div id="menu">
-	<?php include 'menu.php';?>
+		<?php include 'menu.php';?>
 	</div>
 
     <div class="inscription">
