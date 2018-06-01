@@ -62,7 +62,7 @@ require_once ('include/head.php');
 
   <body>
 	<div id="bandeau">
-		<?php include 'header.php';?>
+		<?php include 'include/header.php';?>
 	</div>
 	<footer class="footer">
 		<div class="col-4 pt-1">
