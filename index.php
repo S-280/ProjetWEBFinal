@@ -6,5 +6,13 @@
   </head>
   <body>
 
+    <div class="connexion">
+      
+    </div>
+
+    <div class="inscription">
+
+    </div>
+
   </body>
 </html>
