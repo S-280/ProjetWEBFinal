@@ -16,8 +16,8 @@ if (isset($_POST["connexion"])) {
   }
   $mot_de_passe_base_de_donnees = dbRequestConnexionUser($database, $pseudo);
   foreach($mot_de_passe_base_de_donnees as $mot_passe){
-     $mot_de_passe_user = $mot_passe[0];
-   }
+    $mot_de_passe_user = $mot_passe[0];
+  }
   $mot_de_passe = sha1($mot_de_passe);
   if ($mot_de_passe_user != $mot_de_passe) {
     erreurs_formulaire($connexion_inscription, "mot_de_passe");
@@ -59,10 +59,10 @@ if (isset($_POST["inscription"])) {
 require_once ('include/head.php');
 ?>
 
-  <body>
-	<div id="bandeau">
-		<?php include 'include/header.php';?>
-	</div>
+<body>
+  <div id="bandeau">
+    <?php include 'include/header.php';?>
+  </div>
 
   <div class="connexion">
     <h2>Se connecter</h2>
@@ -112,6 +112,7 @@ require_once ('include/head.php');
       </div>
       <button type="submit" name="inscription" class="btn btn-primary">S'inscrire</button>
     </form>
+<<<<<<< HEAD
     </div>
 	<div id="footer">
 		<?php include 'include/footer.php';?>
@@ -121,13 +122,20 @@ require_once ('include/head.php');
 </html>
 	
 <?php
+=======
+  </div>
+  
+  <?php
 
-function erreurs_formulaire($connexion_inscription, $input)
-{
-  if ($connexion_inscription == "connexion") {
-    echo "<style>form.formulaire_connexion input[name=".$input."] { border: 1px solid red; } form.formulaire_connexion label[for=".$input."] { color: red;}</style>";
-  } elseif ($connexion_inscription == "inscription") {
-    echo "<style>form.formulaire_inscription input[name=".$input."] { border: 1px solid red; } form.formulaire_inscription label[for=".$input."] { color: red;}</style>";
+  include 'include/footer.php';
+>>>>>>> 296bc2b5d661951bdcb169209b98b4c3e538686d
+
+  function erreurs_formulaire($connexion_inscription, $input)
+  {
+    if ($connexion_inscription == "connexion") {
+      echo "<style>form.formulaire_connexion input[name=".$input."] { border: 1px solid red; } form.formulaire_connexion label[for=".$input."] { color: red;}</style>";
+    } elseif ($connexion_inscription == "inscription") {
+      echo "<style>form.formulaire_inscription input[name=".$input."] { border: 1px solid red; } form.formulaire_inscription label[for=".$input."] { color: red;}</style>";
+    }
   }
-}
-?>
+  ?>
