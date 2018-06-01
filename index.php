@@ -53,11 +53,6 @@ if (isset($_POST["inscription"])) {
   }
 
 }
-?>
-
-<!DOCTYPE html>
-<html lang="fr">
-<?php
 require_once ('include/head.php');
 ?>
 
