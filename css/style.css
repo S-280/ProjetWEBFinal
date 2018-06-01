@@ -1,0 +1,35 @@
+div.connexion
+{
+  position:absolute;
+  left: 10%;
+  top: 45%;
+  width: 400px;
+  height: 300px;
+  margin-top: -150px;
+}
+
+div.connexion form button[type="submit"]
+{
+  float: right;
+}
+
+div.connexion h2, div.inscription h2
+{
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+div.inscription
+{
+  position:absolute;
+  left: 55%;
+  top: 45%;
+  width: 500px;
+  height: 300px;
+  margin-top: -150px;
+}
+
+div.inscription form button[type="submit"]
+{
+  float: right;
+}
