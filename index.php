@@ -112,10 +112,9 @@ require_once ('include/head.php');
       </div>
       <button type="submit" name="inscription" class="btn btn-primary">S'inscrire</button>
     </form>
-	<div id="footer">
+    </div>
 		<?php include 'include/footer.php';?>
-	</div>
-  </div>
+
 
 
 <?php
