@@ -62,10 +62,7 @@ require_once ('include/head.php');
 
   <body>
 	<div id="bandeau">
-		<?php include 'header.php';?>
-	</div>
-	<div id="menu">
-		<?php include 'menu.php';?>
+		<?php include 'include/header.php';?>
 	</div>
 
   <div class="connexion">
