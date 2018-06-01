@@ -3,5 +3,3 @@
     <a href="mentions.php" class="text-dark">Mentions Légales</a>
   </div>
 </footer>
-</body>
-</html>

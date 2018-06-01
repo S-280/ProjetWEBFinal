@@ -113,10 +113,13 @@ require_once ('include/head.php');
       <button type="submit" name="inscription" class="btn btn-primary">S'inscrire</button>
     </form>
     </div>
+	<div id="footer">
 		<?php include 'include/footer.php';?>
+	</div>
 
-
-
+</body>
+</html>
+	
 <?php
 
 function erreurs_formulaire($connexion_inscription, $input)
