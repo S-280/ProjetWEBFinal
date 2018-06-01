@@ -19,10 +19,4 @@
       </li>
     </ul>
   </div>
-<<<<<<< HEAD
 </nav>
-
-
-<!--<div id="menu">
-		<?php include 'menu.php';?>
-</div>-->
