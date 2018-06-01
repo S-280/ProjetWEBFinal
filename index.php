@@ -49,6 +49,7 @@ if (isset($_POST["inscription"])) {
   if ($mot_de_passe == $confirmation_mot_de_passe) {
     dbAddUser($database, $nom, $prenom, $pseudo, $mail, $mot_de_passe);
     header("Location: accueil.php");
+    exit();
   }
 
 }
