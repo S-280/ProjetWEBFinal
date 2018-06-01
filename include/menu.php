@@ -5,18 +5,31 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
+      <li <?php active('accueil.php'); ?> class="nav-item">
+        <a class="nav-link" href="index.php">Accueil</a>
       </li>
-      <li class="nav-item">
+      <li <?php active('palmares.php'); ?> class="nav-item">
         <a class="nav-link" href="palmares.php" class="">Palmarès</a>
       </li>
-	  <li class="nav-item">
+	  <li <?php active('profil.php'); ?> class="nav-item">
         <a class="nav-link" href="profil.php">Profil</a>
       </li>
-	  <li class="nav-item">
+	  <li <?php active('jeu.php'); ?> class="nav-item">
         <a class="nav-link" href="jeu.php">Nouvelle partie</a>
       </li>
     </ul>
   </div>
 </nav>
+
+<?php
+
+// Foncion qui rajoute la classe active en fonction de l'url donnée
+function active($url)
+{
+$url_page = $_SERVER["PHP_SELF"];
+$url_page = basename($url_page);
+if ($url_page == $url)
+{
+echo ' class="active"';
+}
+}
