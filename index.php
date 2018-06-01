@@ -10,13 +10,10 @@
 	<div id="bandeau">
 		<?php include 'header.php';?>	
 	</div>
-	<div id="menu">
-		<?php include 'menu.php';?>
-	</div>
-
-    <div class="inscription">
-
-    </div>
-
+	<footer class="footer">
+		<div class="col-4 pt-1">
+			<a href="mentions.php" class="text-dark">Mentions Légales</a>
+		</div>
+	</footer>
   </body>
 </html>
