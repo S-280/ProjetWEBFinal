@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once ('php/function_database.php');
 $database = dbConnect();
