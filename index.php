@@ -65,6 +65,12 @@ require_once ('include/head.php');
 	<div id="bandeau">
 		<?php include 'include/header.php';?>
 	</div>
+	<footer class="footer">
+		<div class="col-4 pt-1">
+			<a href="mentions.php" class="text-dark">Mentions Légales</a>
+		</div>
+	</footer>
+  </body>
 
   <div class="connexion">
     <h2>Se connecter</h2>

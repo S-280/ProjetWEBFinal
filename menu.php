@@ -19,13 +19,9 @@
       </li>
     </ul>
   </div>
-<<<<<<< HEAD
 </nav>
 
 
 <!--<div id="menu">
 		<?php include 'menu.php';?>
 </div>-->
-=======
-</nav>
->>>>>>> 15e0afaf9338511409df7bb85df5429d9d0e4682
