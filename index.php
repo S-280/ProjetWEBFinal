@@ -2,13 +2,14 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Le Jeu Burger Quiz!</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-
-    <div class="connexion">
-      
-    </div>
+	<div id="menu">
+	<?php include 'menu.php';?>
+	</div>
 
     <div class="inscription">
 
