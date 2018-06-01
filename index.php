@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 require_once ('php/function_database.php');
 $database = dbConnect();
@@ -59,7 +60,14 @@ if (isset($_POST["inscription"])) {
 <?php
 require_once ('include/head.php');
 ?>
-<body>
+
+  <body>
+	<div id="bandeau">
+		<?php include 'header.php';?>
+	</div>
+	<div id="menu">
+		<?php include 'menu.php';?>
+	</div>
 
   <div class="connexion">
     <h2>Se connecter</h2>

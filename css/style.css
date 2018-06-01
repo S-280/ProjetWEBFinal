@@ -33,3 +33,33 @@ div.inscription form button[type="submit"]
 {
   float: right;
 }
+
+.nav-link {
+	margin-left : 200px;
+}
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.text-dark {
+    color: #343a40!important;
+	text-decoration: none;
+    background-color: transparent;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.text-center {
+	text-align : center!important;
+}
+
+#logo, img {
+	margin-left : 10px;
+	width : 20%;
+	height : 20%;
+}
