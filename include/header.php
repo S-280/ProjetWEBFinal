@@ -9,5 +9,9 @@
 		<div class="col-4 d-flex justify-content-end align-items-center">
 		</div>
 	</div>
+<<<<<<< HEAD
 </div>
 
+=======
+</div>
+>>>>>>> 15e0afaf9338511409df7bb85df5429d9d0e4682
